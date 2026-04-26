@@ -1,0 +1,19 @@
+# Python
+venv/
+venv-win/
+__pycache__/
+*.pyc
+.env
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.DS_Store
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.log
