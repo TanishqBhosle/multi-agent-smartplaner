@@ -19,12 +19,11 @@ function App() {
     setAgents([])
     setCompletedAgents([])
     setPlanData(null)
-
-
-
+    const API_BASE = import.meta.env.VITE_API_URL || ''
+    
     // We need POST for EventSource, but EventSource only supports GET.
     // Instead, use fetch with ReadableStream for SSE.
-    fetch('/api/plan', {
+    fetch(`${API_BASE}/api/plan`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ query }),
