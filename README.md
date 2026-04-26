@@ -2,7 +2,7 @@
 
 SmartPlan AI is a premium, state-of-the-art travel planning platform powered by a neural graph of specialized AI agents. Using **LangGraph** and **Groq**, it orchestrates complex research, logistical planning, and budget optimization to deliver professional, tailored travel dossiers in seconds.
 
-![SmartPlan AI Preview](https://via.placeholder.com/1200x600?text=SmartPlan+AI+Premium+Interface)
+
 vercel - https://multi-agent-smartplaner.vercel.app/
 render -  https://multi-agent-smartplaner.onrender.com
 
